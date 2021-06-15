@@ -16,7 +16,11 @@
             <!-- Sidebar user (optional) -->
             <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                 <div class="image">
-                    <img :src="ruta + '/img/avatar.png'" class="img-circle elevation-2" alt="Wiliam" />
+                    <img
+                        :src="ruta + '/img/avatar.png'"
+                        class="img-circle elevation-2"
+                        alt="Wiliam"
+                    />
                 </div>
                 <div class="info">
                     <a href="#" class="d-block">Wiliam</a>
@@ -51,61 +55,61 @@
                     <!-- Add icons to the links using the .nav-icon class
                          with font-awesome or any other icon font library -->
                     <li class="nav-item menu-open">
-                        <a href="#" class="nav-link active">
+                        <router-link class="nav-link" :to="'/'">
                             <i class="nav-icon fas fa-tachometer-alt"></i>
                             <p>
                                 Dashboard
                             </p>
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nav-header">OPERACIONES</li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <router-link class="nav-link" :to="'/order'">
                             <i class="nav-icon fas fa-cash-register"></i>
                             <p>
                                 Pedidos
                             </p>
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <router-link class="nav-link" :to="'/customer'">
                             <i class="nav-icon fas fa-user-friends"></i>
                             <p>
                                 Clientes
                             </p>
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nav-header">CONFIGURACION</li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <router-link class="nav-link" :to="'/category'">
                             <i class="nav-icon fas fa-sitemap"></i>
                             <p>Categorias</p>
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <router-link class="nav-link" :to="'/product'">
                             <i class="nav-icon fas fa-apple-alt"></i>
                             <p>Productos</p>
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nav-header">ADMINISTRACION</li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <router-link class="nav-link" :to="'/user'">
                             <i class="nav-icon fas fa-users"></i>
                             <p class="text">Usuarios</p>
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <router-link class="nav-link" :to="'/role'">
                             <i class="nav-icon fas fa-users"></i>
                             <p>Roles</p>
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <router-link class="nav-link" :to="'/permit'">
                             <i class="nav-icon fas fa-key"></i>
                             <p>Permisos</p>
-                        </a>
+                        </router-link>
                     </li>
                 </ul>
             </nav>

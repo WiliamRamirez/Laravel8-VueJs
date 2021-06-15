@@ -8,7 +8,11 @@
         <SidebarComponent :ruta="ruta"></SidebarComponent>
 
         <!-- Content Wrapper. Contains page content -->
-        <router-view></router-view>
+        <div class="content-wrapper">
+            <transition name="slide-fade" mode="out-in">
+                <router-view></router-view>
+            </transition>
+        </div>
         <!-- /.content-wrapper -->
 
         <FooterComponent></FooterComponent>
