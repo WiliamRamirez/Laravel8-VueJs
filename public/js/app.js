@@ -2553,6 +2553,345 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'ContentComponent'
 });
@@ -2983,7 +3322,7 @@ __webpack_require__.r(__webpack_exports__);
 vue__WEBPACK_IMPORTED_MODULE_0__.default.use(vue_router__WEBPACK_IMPORTED_MODULE_1__.default);
 var routes = new vue_router__WEBPACK_IMPORTED_MODULE_1__.default({
   routes: [{
-    path: "/",
+    path: '/',
     component: __webpack_require__(/*! ./components/layouts/ContentComponent */ "./resources/js/components/layouts/ContentComponent.vue").default
   }]
 });
@@ -38940,7 +39279,9 @@ var staticRenderFns = [
                       "label",
                       { attrs: { for: "exampleInputBorderWidth2" } },
                       [
-                        _vm._v("Bottom Border only 2px Border "),
+                        _vm._v(
+                          "Bottom Border only 2px Border\n                                    "
+                        ),
                         _c("code", [
                           _vm._v(".form-control-border.border-width-2")
                         ])
@@ -39003,7 +39344,9 @@ var staticRenderFns = [
                       "label",
                       { attrs: { for: "exampleSelectBorderWidth2" } },
                       [
-                        _vm._v("Bottom Border only "),
+                        _vm._v(
+                          "Bottom Border only\n                                    "
+                        ),
                         _c("code", [
                           _vm._v(".form-control-border.border-width-2")
                         ])
@@ -39288,7 +39631,11 @@ var staticRenderFns = [
                           staticClass: "btn btn-info btn-flat",
                           attrs: { type: "button" }
                         },
-                        [_vm._v("Go!")]
+                        [
+                          _vm._v(
+                            "\n                                        Go!\n                                    "
+                          )
+                        ]
                       )
                     ])
                   ])
@@ -39385,7 +39732,11 @@ var staticRenderFns = [
                         staticClass: "btn btn-default float-right",
                         attrs: { type: "submit" }
                       },
-                      [_vm._v("Cancel")]
+                      [
+                        _vm._v(
+                          "\n                                    Cancel\n                                "
+                        )
+                      ]
                     )
                   ])
                 ])
@@ -39529,9 +39880,7 @@ var staticRenderFns = [
                         },
                         [
                           _c("i", { staticClass: "fas fa-check" }),
-                          _vm._v(
-                            " Input with\n                                        success"
-                          )
+                          _vm._v(" Input with success")
                         ]
                       ),
                       _vm._v(" "),
@@ -39554,9 +39903,7 @@ var staticRenderFns = [
                         },
                         [
                           _c("i", { staticClass: "far fa-bell" }),
-                          _vm._v(
-                            " Input with\n                                        warning"
-                          )
+                          _vm._v(" Input with warning")
                         ]
                       ),
                       _vm._v(" "),
@@ -39906,7 +40253,7 @@ var staticRenderFns = [
                                 },
                                 [
                                   _vm._v(
-                                    "Custom Checkbox with custom color outline"
+                                    "Custom Checkbox with custom color\n                                                    outline"
                                   )
                                 ]
                               )
@@ -40038,7 +40385,7 @@ var staticRenderFns = [
                                 },
                                 [
                                   _vm._v(
-                                    "Custom Radio with custom color outline"
+                                    "Custom Radio with custom color\n                                                    outline"
                                   )
                                 ]
                               )
@@ -40190,7 +40537,7 @@ var staticRenderFns = [
                             },
                             [
                               _vm._v(
-                                "Toggle this custom switch element with custom colors danger/success"
+                                "Toggle this custom switch element with custom\n                                            colors danger/success"
                               )
                             ]
                           )
